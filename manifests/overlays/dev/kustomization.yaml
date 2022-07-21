@@ -7,8 +7,8 @@ images:
   # Since kustomize will transform the image in the base resource(s), we need to search from that post-transform name
   #   Each "name" property should match the image "newName" defined in the base resource(s)
 - name: quay.io/opendatahub/odh-dashboard
-  newName: <DEV_DASHBOARD_QUAY_URL>
-  newTag: <DEV_DASHBOARD_QUAY_TAG>
+  newName: quay.io/gmfrasca/odh-dashboard
+  newTag: mlpipelines-tile-dev.v0.6
 - name: registry.redhat.io/openshift4/ose-oauth-proxy
   newName: registry.redhat.io/openshift4/ose-oauth-proxy
   newTag: v4.8
