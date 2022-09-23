@@ -3,6 +3,6 @@ kind: Kustomization
 commonLabels:
   app: odh-dashboard
   app.kubernetes.io/part-of: odh-dashboard
-bases:
-  - ./jupyter
-  - ./data-science-pipelines
+resources:
+- data-science-pipelines-app.yaml
+- data-science-pipelines-quickstart.yaml

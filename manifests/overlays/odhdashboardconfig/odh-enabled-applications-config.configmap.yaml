@@ -6,3 +6,4 @@ metadata:
 data:
   jupyter: 'true'
   jupyterhub: 'true'
+  data-science-pipelines: 'true'
